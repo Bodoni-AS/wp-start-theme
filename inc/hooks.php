@@ -15,7 +15,7 @@ namespace Air_Light;
 /**
  * Breadcrumb
  */
-// require get_theme_file_path( 'inc/hooks/breadcrumb.php' );
+require get_theme_file_path( 'inc/hooks/breadcrumb.php' );
 
 /**
  * General hooks

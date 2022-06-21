@@ -1,0 +1,37 @@
+#breadcrumbs {
+  max-width: $width-grid-base;
+  margin: 1rem auto 0 auto;
+  padding-bottom: 1rem;
+  padding-left: var(--padding-container-horizontal);
+  padding-right: var(--padding-container-horizontal);
+  color: var(--color-brand-text);
+  font-size: var(--font-size-16);
+
+  & a {
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    text-decoration-color: var(--color-brand-logo);
+
+    &:hover {
+      color: var(--color-brand-logo);
+    }
+  }
+
+  & .separator {
+    margin: 0 .7rem;
+  }
+
+  @media (max-width: $container-ipad-landscape) {
+    font-size: var(--font-size-14);
+
+    .home-icon {
+      margin-right: 3px;
+
+      & svg {
+        transform: translateY(2px);
+        height: 15px;
+        width: 18px;
+      }
+    }
+  }
+}
