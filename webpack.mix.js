@@ -23,12 +23,12 @@ mix
   .options({
     processCssUrls: false,
   })
-  .browserSync({
-    proxy: process.env.MIX_APP_HOST,
-    host: process.env.MIX_APP_HOST,
-    open: false,
-    files: ['./**/*.php', './**/*.css', './**/*.js']
-  });
+  // .browserSync({
+  //   proxy: process.env.MIX_APP_HOST,
+  //   host: process.env.MIX_APP_HOST,
+  //   open: false,
+  //   files: ['./**/*.php', './**/*.css', './**/*.js']
+  // });
 
   mix.webpackConfig({
     stats: {
