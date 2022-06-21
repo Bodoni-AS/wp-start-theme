@@ -22,10 +22,12 @@ $thumbnail = wp_get_attachment_url( get_post_thumbnail_id() ) ?: THEME_SETTINGS[
 get_header(); ?>
 
 <main class="site-main">
+  <article class="article-content">
   <?php
     the_content();
     air_edit_link();
   ?>
+  </article>
 </main>
 
 <?php get_footer();

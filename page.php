@@ -22,10 +22,12 @@ the_post();
 get_header(); ?>
 
 <main class="site-main">
+  <section class="article-content">
   <?php
     the_content();
     air_edit_link();
   ?>
+  </section>
 </main>
 
 <?php get_footer();

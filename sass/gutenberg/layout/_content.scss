@@ -10,7 +10,8 @@
 
 // Gutenberg core magic
 .is-root-container > *,
-.article-content > * {
+.article-content > *,
+.page-content > * {
   line-height: var(--line-height-paragraphs-blog);
   margin-left: auto;
   margin-right: auto;
@@ -26,4 +27,8 @@
       width: calc(100% - calc(var(--padding-container-horizontal) * 2));
     }
   }
+}
+
+.page-content > * {
+  max-width: $width-grid-base;
 }
