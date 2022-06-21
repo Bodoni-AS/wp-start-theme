@@ -1,0 +1,12 @@
+html {
+  scroll-behavior: smooth;
+}
+
+html, body, #page {
+  min-height: 100%;
+
+  & > footer {
+    position: sticky;
+    top: 100vh;
+  }
+}

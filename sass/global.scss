@@ -24,6 +24,7 @@
 @import 'components/components';
 
 // Navigation
+@import 'navigation/breadcrumb';
 @import 'navigation/nav-desktop';
 @import 'navigation/nav-mobile';
 
@@ -47,6 +48,7 @@
 
 // Views
 @import 'views/front-page';
+@import 'views/page';
 @import 'views/search';
 @import 'views/404';
 @import 'views/comments';
