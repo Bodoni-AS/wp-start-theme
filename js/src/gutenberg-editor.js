@@ -8,10 +8,10 @@
 import { setFigureWidths, setLazyLoadedFigureWidth } from './modules/gutenberg-helpers';
 
 // Declare the block you'd like to style.
-wp.blocks.registerBlockStyle('core/paragraph', {
+/* wp.blocks.registerBlockStyle('core/paragraph', {
   name: 'boxed',
-  label: 'Laatikko',
-});
+  label: 'Ramme',
+}); */
 
 var air_light_LazyLoad = new LazyLoad({
   callback_loaded: setLazyLoadedFigureWidth,
