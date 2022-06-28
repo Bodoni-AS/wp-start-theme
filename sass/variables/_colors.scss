@@ -4,8 +4,20 @@
 // For AA: https://chir.ag/projects/name-that-color/
 // ------------------------------------------------------
 :root {
-  // Brand color pool
-  --color-black: #222;
+
+  // Brand colors
+  --color-black: #111;
+  --color-brand-gray-dark-100: #343434;
+  --color-brand-gray-dark-200: #414141;
+  --color-brand-gray-light-100: #D7D7D7;
+  --color-brand-gray-light-200: #f2f2f2;
+  --color-brand-red: #EF3340;
+  --color-brand-orange: #FF9B26;
+
+
+
+
+  // Default color pool
   --color-black-rock: #2b303c;
   --color-blue-chalk: #ece6f2;
   --color-east-bay: #545773;

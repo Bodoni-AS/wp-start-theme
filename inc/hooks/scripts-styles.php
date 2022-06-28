@@ -35,6 +35,9 @@ function enqueue_theme_scripts() {
     filemtime( get_theme_file_path( get_asset_file( 'global.css' ) ) )
   );
 
+  // Enqueue Adobe fonts
+  wp_enqueue_style( 'fonts', 'https://use.typekit.net/rpu8mhz.css');
+
   // Enqueue jquery and front-end.js
   wp_enqueue_script( 'jquery-core' );
   wp_enqueue_script( 'scripts',

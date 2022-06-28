@@ -31,12 +31,12 @@
   --line-height-paragraphs-blog: 1.77;
 
   // Font weights
-  --font-weight-regular: 400;
+  --font-weight-regular: 300;
   --font-weight-medium: 500;
   --font-weight-semibold: 600;
   --font-weight-bold: 700;
   --font-weight-paragraphs: var(--font-weight-regular);
-  --font-weight-headings: var(--font-weight-bold);
+  --font-weight-headings: var(--font-weight-regular);
 
   // Heading font sizes in mobile
   @media (max-width: $container-mobile) {
